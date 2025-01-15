@@ -64,4 +64,7 @@
   <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" />
 
+  <!-- SHIFTphone 8 -->
+  <project name="CalyxOS/lfs_vendor_shift_otter" path="vendor/shift/otter" remote="gitlab-priv" />
+
 </manifest>
