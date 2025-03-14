@@ -30,7 +30,7 @@
   </project>
 
   <!-- Inline kernel build -->
-  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="refs/tags/android-14.0.0_r0.7" />
+  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="main-kernel-build-2024" />
   <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" groups="lineage" remote="gitlab" clone-depth="1" />
 
   <!-- CodeLinaro additions -->
