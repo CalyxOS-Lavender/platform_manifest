@@ -932,7 +932,7 @@
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
   <project path="system/memory/mmd" name="platform/system/memory/mmd" groups="pdk" />
   <project path="system/netd" name="CalyxOS/platform_system_netd" groups="pdk" remote="gitlab" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
+  <project path="system/nfc" name="CalyxOS/platform_system_nfc" groups="pdk" remote="gitlab" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="pdk" />
   <project path="system/security" name="CalyxOS/platform_system_security" groups="pdk" remote="gitlab" />
