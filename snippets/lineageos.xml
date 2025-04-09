@@ -94,6 +94,7 @@
 
   <!-- Motorola sm6375 -->
   <project name="CalyxOS/device_motorola_bangkk" path="device/motorola/bangkk" remote="gitlab" />
+  <project name="CalyxOS/device_motorola_fogo" path="device/motorola/fogo" remote="gitlab" />
   <project name="CalyxOS/device_motorola_fogos" path="device/motorola/fogos" remote="gitlab" />
   <project name="CalyxOS/device_motorola_sm6375-common" path="device/motorola/sm6375-common" remote="gitlab" />
   <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" />
