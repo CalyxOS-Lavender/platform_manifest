@@ -12,12 +12,12 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android15-qpr2" />
-  <default revision="refs/tags/android-15.0.0_r23"
+  <default revision="refs/tags/android-15.0.0_r26"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r23" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r26" />
   <contactinfo bugurl="go/repo-bug" />
   <project path="build/make" name="CalyxOS/platform_build" groups="pdk,sysui-studio" remote="gitlab" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
