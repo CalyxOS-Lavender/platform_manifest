@@ -24,6 +24,9 @@
   <project name="kernel_xiaomi_sdm660"   path="kernel/xiaomi/sdm660"   remote="calyxos-lavender" />
   <project name="platform_hardware_xiaomi" path="hardware/xiaomi"      remote="calyxos-lavender" />
 
+  <!-- CodeLinaro additions -->
+  <project name="device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="calyxos-lavender" />
+
   <!-- SDM660 HALS -->
   <project name="platform_hardware_qcom-caf_sdm660_audio"   path="hardware/qcom-caf/sdm660/audio"   remote="calyxos-lavender" />
   <project name="platform_hardware_qcom-caf_sdm660_media"   path="hardware/qcom-caf/sdm660/media"   remote="calyxos-lavender" />
