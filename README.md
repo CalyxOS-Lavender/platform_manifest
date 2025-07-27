@@ -1,5 +1,18 @@
 # CalyxOS
 
+## Getting started
+
+To get started with Android/CalyxOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the CalyxOS trees, use a command like this:
+```
+repo init -u https://github.com/CalyxOS-Lavender/platform_manifest.git -b android15-qpr2 --git-lfs
+```
+Then to sync up:
+```
+repo sync
+```
+
 CalyxOS is an AOSP based OS, built upon many free software projects. Check out the [website](https://calyxos.org/) to learn more about the project.
 
 ## Development

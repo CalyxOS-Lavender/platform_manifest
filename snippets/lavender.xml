@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="calyxos-lavender"
+           fetch="https://github.com/CalyxOS-Lavender/"
+           revision="refs/heads/android15-qpr2" />
+
+  <remove-project name="CalyxOS/platform_build_soong" />
+  <remove-project name="CalyxOS/platform_hardware_calyx_interfaces" />
+  <remove-project name="CalyxOS/platform_manifest" />
+  <remove-project name="CalyxOS/vendor_calyx" />
+
+  <!-- Manifest -->
+  <project name="platform_manifest" path="manifest" remote="calyxos-lavender" />
+
+  <!-- CalyxOS forks with additional changes -->
+  <project name="vendor_calyx" 			     path="vendor/calyx" remote="calyxos-lavender" />
+  <project name="platform_build_soong"               path="build/soong"  remote="calyxos-lavender" />
+  <project name="platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="calyxos-lavender" />
+
+  <!-- Redmi Note 7/7s -->
+  <project name="device_xiaomi_lavender" path="device/xiaomi/lavender" remote="calyxos-lavender" />
+  <project name="vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="calyxos-lavender" />
+  <project name="kernel_xiaomi_sdm660"   path="kernel/xiaomi/sdm660"   remote="calyxos-lavender" />
+  <project name="platform_hardware_xiaomi" path="hardware/xiaomi"      remote="calyxos-lavender" />
+
+</manifest>

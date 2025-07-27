@@ -5,11 +5,11 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="gitlab"
-           fetch=".."
+           fetch="https://gitlab.com/"
            review="review.calyxos.org"
            revision="refs/heads/android15-qpr2" />
   <remote  name="gitlab-main"
-           fetch=".."
+           fetch="https://gitlab.com/"
            review="review.calyxos.org"
            revision="refs/heads/main" />
   <remote  name="gitlab-priv"
@@ -1029,5 +1029,6 @@
 
   <include name="snippets/calyxos.xml" />
   <include name="snippets/lineageos.xml" />
+  <include name="snippets/lavender.xml" />
 
 </manifest>
