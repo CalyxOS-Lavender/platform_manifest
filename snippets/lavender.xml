@@ -9,12 +9,14 @@
   <remove-project name="CalyxOS/platform_hardware_calyx_interfaces" />
   <remove-project name="CalyxOS/platform_manifest" />
   <remove-project name="CalyxOS/vendor_calyx" />
+  <remove-project name="CalyxOS/platform_bionic" />
 
   <!-- Manifest -->
   <project name="platform_manifest" path="manifest" remote="calyxos-lavender" />
 
   <!-- CalyxOS forks with additional changes -->
   <project name="vendor_calyx" 			     path="vendor/calyx" remote="calyxos-lavender" />
+  <project name="platform_bionic"                    path="bionic"       remote="calyxos-lavender" />
   <project name="platform_build_soong"               path="build/soong"  remote="calyxos-lavender" />
   <project name="platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="calyxos-lavender" />
 
