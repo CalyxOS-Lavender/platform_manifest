@@ -6,6 +6,8 @@
            revision="refs/heads/android15-qpr2" />
 
   <remove-project name="CalyxOS/platform_build_soong" />
+  <remove-project name="CalyxOS/platform_system_sepolicy" />
+  <remove-project name="CalyxOS/platform_packages_modules_Bluetooth" />
   <remove-project name="CalyxOS/platform_hardware_calyx_interfaces" />
   <remove-project name="CalyxOS/platform_manifest" />
   <remove-project name="CalyxOS/vendor_calyx" />
@@ -19,6 +21,8 @@
   <project name="platform_bionic"                    path="bionic"       remote="calyxos-lavender" />
   <project name="platform_build_soong"               path="build/soong"  remote="calyxos-lavender" />
   <project name="platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="calyxos-lavender" />
+  <project name="platform_system_sepolicy"           path="system/sepolicy" remote="calyxos-lavender" />
+  <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="calyxos-lavender" />
 
   <!-- Redmi Note 7/7s -->
   <project name="device_xiaomi_lavender" path="device/xiaomi/lavender" remote="calyxos-lavender" />
