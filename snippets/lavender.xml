@@ -12,6 +12,7 @@
   <remove-project name="CalyxOS/platform_manifest" />
   <remove-project name="CalyxOS/vendor_calyx" />
   <remove-project name="CalyxOS/platform_bionic" />
+  <remove-project name="CalyxOS/platform_system_core" />
 
   <!-- Manifest -->
   <project name="platform_manifest" path="manifest" remote="calyxos-lavender" />
@@ -20,6 +21,7 @@
   <project name="vendor_calyx" 			     path="vendor/calyx" remote="calyxos-lavender" />
   <project name="platform_bionic"                    path="bionic"       remote="calyxos-lavender" />
   <project name="platform_build_soong"               path="build/soong"  remote="calyxos-lavender" />
+  <project name="platform_system_core"               path="system/core"  remote="calyxos-lavender" />
   <project name="platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="calyxos-lavender" />
   <project name="platform_system_sepolicy"           path="system/sepolicy" remote="calyxos-lavender" />
   <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="calyxos-lavender" />
